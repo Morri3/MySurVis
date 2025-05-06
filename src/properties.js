@@ -41,6 +41,10 @@ var tagCloudOptions = [{
     field: 'series',
     title: 'Series',
     minTagFrequency: 1
+}, {
+    field: 'journal',
+    title: 'Journals',
+    minTagFrequency: 1
 }];
 
 /**
@@ -54,8 +58,8 @@ var editable = true;
  * @type {{html: string, id: string}}
  */
 var paper = {
-    html: 'Sample literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
-    id: 'Beck2016Visual'
+    html: 'The survey of <b><a href="https://arxiv.org/abs/2107.07511" target="_blank">Conformal Prediction</a></b>',
+    id: 'angelopoulos2021gentle'
 };
 
 /**
@@ -78,7 +82,7 @@ var customStyle = '';
  * minCitationCount: minimum number of citations of a paper to be displayed in the visualization
  * @type {{minCitationCount: number}}
  */
-/* var citations = {
-    minCitationCount: 5
-}; */
-var citations = null;
+var citations = {
+    minCitationCount: 0
+}; 
+// var citations = null;
