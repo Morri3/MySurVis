@@ -1,10 +1,10 @@
 # SurVis - Visual Literature Browser
 
-## What did I modify? [IMPORTANT!]
+## What did I modify? [IMPORTANT! by Yiqian Zhang]
 
 I modified `references.lib` in the directory `bib`; `tag_categories.js` in the directory `src/data`; `properties.js` in the directory `src`, leading to the current interface effect.
 
-## Following is the content of Original README.md
+## Following is the content of the original README.md
 
 ![Screenshot](/doc/survis.png)
 
