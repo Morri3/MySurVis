@@ -1,1 +1,1 @@
-const availableImg = ["angelopoulos2021gentle"];
+const availableImg = [];
